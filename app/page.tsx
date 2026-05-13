@@ -173,10 +173,15 @@ export default function Home() {
         </button>
       </div>
 
-      {/* FOOTER */}
-      <div style={{textAlign: 'center', padding: '1rem 2rem 2rem', fontSize: '11px', color: '#aaa', lineHeight: 1.6}}>
-        ShelfDrop finds and surfaces public clearance pricing. We may earn a commission on affiliate links. Prices and availability verified every 4 hours.
-      </div>
+     {/* FOOTER */}
+<div style={{textAlign: 'center', padding: '1rem 2rem 2rem', fontSize: '11px', color: '#aaa', lineHeight: 1.6}}>
+  <p style={{marginBottom: '0.5rem'}}>ShelfDrop finds and surfaces public clearance pricing. We may earn a commission on affiliate links at no extra cost to you. Prices and availability verified every 4 hours.</p>
+  <div style={{display: 'flex', justifyContent: 'center', gap: '1.5rem', marginTop: '0.5rem'}}>
+    <a href="/privacy" style={{color: '#F4A234', textDecoration: 'none', fontSize: '11px'}}>Privacy Policy</a>
+    <a href="/terms" style={{color: '#F4A234', textDecoration: 'none', fontSize: '11px'}}>Terms of Service</a>
+    <a href="mailto:hello@shelfdrop.live" style={{color: '#F4A234', textDecoration: 'none', fontSize: '11px'}}>Contact</a>
+  </div>
+</div>
 
     </main>
   );
