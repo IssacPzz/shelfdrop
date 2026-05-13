@@ -43,7 +43,15 @@ export default function Alerts() {
         </div>
 
         <div style={{background: '#fff', borderRadius: '16px', border: '1px solid #e8e6df', padding: '2rem'}}>
-          <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="2825603e-c1af-4cd1-8551-43e75cab7c57"></script>
+          <div style={{background: '#fff', borderRadius: '16px', border: '1px solid #e8e6df', padding: '2rem'}}>
+  <iframe
+    src="https://embeds.beehiiv.com/2825603e-c1af-4cd1-8551-43e75cab7c57"
+    data-test-id="beehiiv-embed"
+    width="100%"
+    height="320"
+    style={{borderRadius: '8px', border: 'none'}}
+  />
+</div>
         </div>
 
         <p style={{textAlign: 'center', fontSize: '11px', color: '#aaa', marginTop: '1rem'}}>
