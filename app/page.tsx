@@ -168,9 +168,9 @@ export default function Home() {
             <p style={{fontSize: '12px', color: 'rgba(255,255,255,0.5)', margin: 0}}>Free email alerts when new clearance drops at your local stores</p>
           </div>
         </div>
-        <button style={{background: '#F4A234', border: 'none', color: '#1a1a1a', padding: '9px 18px', borderRadius: '7px', fontSize: '13px', fontWeight: 500, cursor: 'pointer', whiteSpace: 'nowrap', flexShrink: 0}}>
-          Set Up Alerts
-        </button>
+        <a href="/alerts" style={{background: '#F4A234', border: 'none', color: '#1a1a1a', padding: '9px 18px', borderRadius: '7px', fontSize: '13px', fontWeight: 500, cursor: 'pointer', whiteSpace: 'nowrap', flexShrink: 0, textDecoration: 'none'}}>
+  Set Up Alerts
+</a>
       </div>
 
      {/* FOOTER */}
