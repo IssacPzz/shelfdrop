@@ -28,7 +28,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        <meta name='impact-site-verification' value='7f35eaf6-9317-4984-8d00-f0d3a11046b8' />
+        <meta name='impact-site-verification' value='f9ac082b-5cac-4717-aa2e-09ec4569f58b' />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
